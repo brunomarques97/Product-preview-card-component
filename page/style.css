@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+}
+main{
+    background-color:#f2ebe3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+.banner{
+    background-color: #ffffff;
+    justify-content: center;
+    border-radius: 10px;
+    height: 90vh;
+    width: 90vw;
+}
+.image{
+    background-image: url(./images/image-product-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    height: 200px;
+}
+.banner section{
+   margin: 2rem 1rem;
+}
+h3,p{
+    color: #6c7289;
+}
+h3,p, h1, .preco, button{
+    margin: 1rem 0;
+}
+h1{
+    font-size: 30px;
+}
+.preco{
+    display: flex;
+    align-items: center;
+}
+.preco h1{
+    color: #3c8067;
+}
+.preco p{
+    margin: 1em;
+    text-decoration: line-through;
+}
+button{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #3c8067;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+}
+button p{
+    color: #ffffff;
+    margin: 0 1em;
+}
+
+@media only screen and (min-width: 600px) {
+    .image {
+      background-image: url();
+    }
+  }
