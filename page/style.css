@@ -67,7 +67,15 @@ button p{
 }
 
 @media only screen and (min-width: 600px) {
-    .image {
-      background-image: url();
+    .banner{
+        height: 50vh;
+        width: 70vh;
+        display: flex;
     }
+    .image {
+      background-image: url(./images/image-product-desktop.jpg);
+      height: 100%;
+      border-radius: 10px 0 0 10px;
+    }
+    
   }
